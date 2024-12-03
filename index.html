@@ -13,10 +13,10 @@
         <div class="interface">
            <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#topo" class="linkpg">Início</a></li>
+                    <li><a href="#especialidades" class="linkpg">Especialidades</a></li>
+                    <li><a href="#sobre" class="linkpg">Sobre</a></li>
+                    <li><a href="#portfolio" class="linkpg">Projetos</a></li>
                 </ul>
            </nav>
 
@@ -29,12 +29,15 @@
     </header>
 
     <main>
-        <section class="topo">
+        <section id="topo">
             <div class="interface">
                 <div class="flex">
                     <div class="textotopo">
                         <h1>Seja bem-vindo ao meu portfólio<span>!</span></h1>
-                        <p>Aqui você encontrará meus projetos e habilidades</p>
+                        <p>Sou Guilherme, um Desenvolvedor Web. Aqui, você encontrará uma seleção dos meus trabalhos, projetos e experiências que refletem minha paixão por programação.
+                            Cada projeto que você verá aqui foi feito com dedicação, criatividade e atenção aos detalhes. Meu objetivo é transformar ideias em realidade, sempre buscando entregar valor e inovação.
+                            Explore, inspire-se e entre em contato! Ficarei feliz em conversar sobre como podemos criar algo incrível juntos.
+                            </p>
 
                         <div class="btn-contato">
                             <a href="#">
@@ -46,7 +49,7 @@
             </div>
         </section><!--topo-->
 
-        <section class="especialidades">
+        <section id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -71,7 +74,7 @@
             </div><!--interface-->
         </section><!--especialidades-->
 
-        <section class="sobre">
+        <section id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -94,21 +97,28 @@
             </div><!--interface-->
         </section><!--sobre-->
 
-        <section class="portfolio">
+        <section id="portfolio">
             <div class="interface">
                 <h2 class="titulo">MEU <SPAN>PORTFÓLIO.</SPAN></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(images/);">
+                    <div class="img-port" style="background-image: url(images/login.PNG);">
                         <a href="https://github.com/GuizoSaraiva/abastecimento"><div class="overlay">Sistema de Abastecimento</div></a> 
                 </div>
                     <div class="img-port" style="background-image: url(images/biblioteca.PNG);">
                         <a href="https://clarice-ten.vercel.app"><div class="overlay">Biblioteca Clarice Lispector</div> </a>
                     </div>
                     </div>
+                    <br><br>
+                    <div class="explicacao">
+                        <h3>Sistema de <span>Abastecimento</span></h3>
+                        <p>O primeiro projeto realizado, teve como objetivo desenvolver uma aplicação web para gerenciar o abastecimento dos veículos da empresa, otimizando o controle de gastos com combustível e facilitando o acompanhamento da utilização dos veículos. O sistema foi feito no estágio curricular e foram utilizadasa as linguagens: HTML, CSS, Javascript, PHP e MySQL.</p>
+                    <br>
+                    <h3>Biblioteca <span>Clarice Lispector</span></h3>
+                    <p>O meu segundo projeto, também realizado em estágio, foi para busca de livros na biblioteca Clarice Lispector. Os alunos podem pesquisar qualquer livro e conferir se o mesmo está disponível para empréstimo e também informações adicionais como a descrição do livro. O sistema é linkado com uma planilha com todas as informações e foi utilizado apenas HTML, CSS e Javascript para o projeto.</p>
+                    </div>
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--portfolio-->
     </main>
-
 </body>
 </html>

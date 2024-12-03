@@ -62,7 +62,7 @@ button:hover{
     transform: scale(1.05);
 }
 
-section.topo{
+ #topo{
     padding: 40px 4%;
 }
 
@@ -70,32 +70,33 @@ section.topo{
     display: flex;
 }
 
-section.topo.flex{
+ #topo.flex{
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.topo h1{
+#topo h1{
     color: #fff;
     font-size: 42px;
     line-height: 40px;
 }
 
-.topo h1 span{
+#topo h1 span{
     color: rgb(177, 0, 255);
 }
 
-.topo p{
+#topo p{
     color: #fff;
     margin: 40px 0;
+    font-size: large;
 }
 
-section.especialidades{
+section #especialidades{
     padding: 40px 4%;
 }
 
-section.especialidades .flex{
+section #especialidades .flex{
     gap: 60px;
 }
 
@@ -109,7 +110,7 @@ h2.titulo span{
     color: rgb(177, 0, 255);
 }
 
-section.especialidades .especialidades-box{
+#especialidades .especialidades-box{
     color: #fff;
     padding: 40px;
     margin-top: 45px;
@@ -117,51 +118,51 @@ section.especialidades .especialidades-box{
     transition: .2s;
 }
 
-section.especialidades .especialidades-box:hover{
+#especialidades .especialidades-box:hover{
     transform: scale(1.05);
     box-shadow: 0 0 20px #ffffff78;
 }
 
-section.especialidades .especialidades-box i{
+#especialidades .especialidades-box i{
     font-size: 70px;
     color: rgb(177, 0, 255);
 }
 
-section.especialidades .especialidades-box h3{
+#especialidades .especialidades-box h3{
     font-size: 28px;
     color: #fff;
     margin: 15px 0;
 }
 
-section.sobre{
+#sobre{
     padding: 80px 4%;
 }
 
-section.sobre .flex{
+#sobre .flex{
     align-items: center;
     gap: 60px;
 }
 
-.sobre .texto-sobre{
+#sobre .texto-sobre{
     color: #fff;
 }
 
-.sobre .texto-sobre h2{
+#sobre .texto-sobre h2{
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
 }
 
-.sobre .texto-sobre h2 span{
+#sobre .texto-sobre h2 span{
     color: rgb(177, 0, 255);
 }
 
-.sobre .texto-sobre p{
+#sobre .texto-sobre p{
     margin: 20px 0;
     text-align: justify;
 }
 
-.sobre .texto-sobre .btn-social button{
+#sobre .texto-sobre .btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -174,11 +175,11 @@ section.sobre .flex{
 }
 
 
-section.portfolio{
+#portfolio{
     padding: 80px 4%;
 }
 
-section.portfolio .flex{
+#portfolio .flex{
     justify-content: space-around;
     margin-top: 60px;
 }
@@ -188,7 +189,7 @@ section.portfolio .flex{
     height: 460px;
     background-color: rgb(177, 0, 255);
     background-size: cover;
-    background-position: 100% 0%;
+    background-position: 100% 50%;
     transition: .8s;
     cursor: pointer;
     border-radius: 40px;
@@ -196,6 +197,7 @@ section.portfolio .flex{
 }
 
 .img-port:hover{
+    transition: .8s;
     background-position: 100% 100%;
 }
 
@@ -219,4 +221,20 @@ section.portfolio .flex{
 
 .overlay:hover{
     opacity: 1;
+}
+
+#portfolio .explicacao h3{
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+#portfolio .explicacao p{
+    color: #fff;
+    margin: 15px 0;
+    font-size: large;
+}
+
+#portfolio .explicacao span{
+    color: rgb(177, 0, 255);
 }
