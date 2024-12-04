@@ -238,3 +238,67 @@ h2.titulo span{
 #portfolio .explicacao span{
     color: rgb(177, 0, 255);
 }
+
+@media screen and (max-width: 1020px){
+    .flex{
+        flex-direction: column-reverse;
+    }
+
+    .topo .flex{
+        flex-direction: column-reverse;
+    }  
+    
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    #topo h1{
+        font-size: 30px;
+    }
+
+    section #topo{
+        padding: 20px 8%;
+    }
+
+    section #topo .flex{
+        gap: 40px;
+    }
+
+    section #especialidades{
+        padding: 40px 8%;
+    }
+
+    section #sobre{
+        padding: 80px 8%;
+    }
+
+    #sobre .texto-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social{
+        text-align: center;
+    }
+
+    section #portfolio{
+        padding: 80px 8%;
+    }
+
+    .img-port{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+    
+    section #portfolio .flex{
+        gap: 60px;
+    }
+
+}
