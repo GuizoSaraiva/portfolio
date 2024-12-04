@@ -283,14 +283,17 @@ h2.titulo span{
 
     #sobre .texto-sobre h2{
         color: #fff;
-        font-size: 42px;
+        font-size: 10px;
         line-height: 40px;
+        text-align: center;
     }
 
     #sobre .texto-sobre p{
         color: #fff;
         margin: 15px 0;
         font-size: large;
+        text-align: justify;
+        margin-bottom: 15px;
     }
 
     .btn-social{
