@@ -273,6 +273,10 @@ h2.titulo span{
         padding: 40px 8%;
     }
 
+    section #sobre .flex{
+        gap: 60px;
+    }
+
     section #sobre{
         padding: 80px 8%;
     }
