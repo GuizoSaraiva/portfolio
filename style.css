@@ -290,10 +290,8 @@ h2.titulo span{
 
     #sobre .texto-sobre p{
         color: #fff;
-        margin: 15px 0;
-        font-size: 8px;
+        font-size: 10px;
         text-align: justify;
-        margin-bottom: 15px;
     }
 
     .btn-social{
